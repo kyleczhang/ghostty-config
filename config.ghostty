@@ -71,6 +71,8 @@ clipboard-read = allow
 clipboard-write = allow
 
 # === Behavior / Quit Confirmation ===
+# Start new terminals in ~/Desktop.
+working-directory = ~/Desktop
 # Confirm close only when a process is still running.
 confirm-close-surface = true
 # Quit after the last window is closed.
